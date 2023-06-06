@@ -1,0 +1,33 @@
+
+:root{
+    --background: #d8d6d8;
+    --branco: #ececec;
+    --cor-fonte-principal:#0f0c35;
+    --cor-destaque-fonte: #8d36a3;
+    --cor-fonte-tres: #154e24;
+    --degrade: linear-gradient(90deg, rgb(37, 9, 59) 3%, rgba(37,2,92,1) 85%);
+    --fonte-destaque:  'Sintony';
+    --fonte-texto: 'Poppins';
+    --logo-fonte:  'Caveat', cursive;
+}
+body{
+    background-color: var(--background);
+    font-size: 16px;
+    font-family: var(--fonte-texto);
+    letter-spacing: 0.5px;
+}
+.icon{
+    font-size: 26px;
+    padding: 1px;
+    color: var(--cor-fonte-principal);
+}
+.icon:hover{
+    color: var(--cor-destaque-fonte);
+    transition: .5s;
+}
+a{
+    text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+}

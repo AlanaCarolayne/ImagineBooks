@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImagineBooks</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Assets/CSS/imports.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sintony:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- PLUGGINS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav class="header">
+
+        <header class="header-menu">
+            <div class="container-menu">
+                <input type="checkbox" id="menu" class="menu-btn">
+                <label for="menu">
+                    <span class="menu-hambuguer icon"> <i class="fa-solid fa-bars"></i></span>
+                </label>
+
+                <ul class="lista_menu">
+                    <li class="lista_menu_titulo"> Categorias</li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link">Romance</a></li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link">Ficção</a></li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link"> Terror</a></li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link"> Aventura</a> </li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link"> Fantasia</a></li>
+                </ul>
+
+                <img src="Assets/Images/Logo.png" alt="Logo" class="menu-logo">
+                <h1 class="menu-title"> ImagineBooks</h1>
+            </div>
+
+            <ul class="opcoes">
+                <input type="checkbox" id="opcoes_menu" class="opcoes_btn">
+                <label for="opcoes_menu">
+                    <li class="opcoes_item"> Categorias</a></li>
+                </label>
+                <ul class="lista_menu">
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link">Romance</a></li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link">Ficção</a></li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link"> Terror</a></li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link"> Aventura</a> </li>
+                    <li class="lista_menu_item"> <a href="" class="lista_menu_link"> Fantasia</a></li>
+                </ul>
+
+                <li class="opcoes_item"> <a href="@" class="opcoes_link">Favoritos</a></li>
+                <li class="opcoes_item"> <a href="@" class="opcoes_link">Minha estante</a></li>
+            </ul>
+            <div class="container-menu">
+                <a href="@" class="menu-link"> <i class="fa-regular fa-heart icon"></i></a>
+                <a href="@" class="menu-link"> <i class="fa-solid fa-cart-shopping icon"></i><p class="menu-texto">Meu carrinho</p></a>
+                <a href="@" class="menu-link"><i class="fa-regular fa-circle-user icon"></i> <p class="menu-texto">Minha Conta</p></a>
+            </div>
+
+        </header>
+    </nav>
+
+    <div class="banner">
+        <h2 class="banner_title">Já sabe por onde começar?</h2>
+        <p class="banner_text">Encontre em nossa estante o que precisa para seu entreterimento!</p>
+        <input type="search" class="banner_search" placeholder="Qual será sua próxima leitura?">
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+    </div>
+
+    <div class="carrossel">
+        <h2 class="carrossel_title">ULTIMOS lançamentos </h2>
+        <!-- Usando um pluggin:  -->
+        <!-- Slider main container -->
+        <div class="carrossel_container">
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./Assets/Images/ladykillers.jpg" alt="Livro lady killers"></div>
+                <div class="swiper-slide"><img src="./Assets/Images/jogosVorazes.jpg" alt="jogos Vorazes"></div>
+                <div class="swiper-slide"><img src="./Assets/Images/evelyn.jpg" alt="Os sete maridos de evelyn Hugo">
+                </div>
+                <div class="swiper-slide"><img src="./Assets/Images/it.jpg" alt="It- a coisa"></div>
+                <div class="swiper-slide"><img src="./Assets/Images/labirinto.jpg" alt="labirinto de fauno"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+
+    <div class="card">
+        <div class="card_descricao">
+            <div class="descricao">
+                <h3 class="descricao_title"> Talvez você também se interesse por...</h3>
+                <h2 class="descricao_title_livro"> Percy Jackson e o Ladrão de Raios </h2>
+                <p class="descricao_text"> Primeiro volume da saga Percy Jackson e os olimpianos, O ladrão de raios
+                    esteve entre os primeiros lugares na lista das séries mais vendidas do The New York Times.</p>
+            </div>
+
+            <div class="card_descricao">
+                <img src="./Assets/Images/percy.jpg" alt="Percy Jackson " class="descricao_img">
+            </div>
+        </div>
+
+        <div class="card_btn">
+            <ul class="btn">
+                <li class="btn_item"><i class="fa-regular fa-heart icon"></i></li>
+                <li class="btn_item"> <i class="fa-solid fa-cart-shopping icon"></i></li>
+            </ul>
+            <a href="" class="btn_ancora">Saiba mais</a>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <div class="carrossel">
+
+        <h2 class="carrossel_title">Mais vendidos </h2>
+        <div class="carrossel_container">
+        <div class="swiper">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./Assets/Images/jogosVorazes.jpg" alt="jogos Vorazes"></div>
+                <div class="swiper-slide"><img src="./Assets/Images/geek.jpg" alt="Geek love">
+                </div>
+                <div class="swiper-slide"><img src="./Assets/Images/it.jpg" alt="It- a coisa"></div>
+                <div class="swiper-slide"><img src="./Assets/Images/labirinto.jpg" alt="labirinto de fauno"></div>
+                <div class="swiper-slide"><img src="./Assets/Images/ladykillers.jpg" alt="Livro lady killers"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+
+        </div>
+
+   
+    <div class="card">
+        <div class="card_descricao">
+            <div class="descricao">
+                <i class="fa-regular fa-star descricao_icon"></i>
+                <i class="fa-regular fa-star descricao_icon"></i>
+                <i class="fa-regular fa-star descricao_icon"></i>
+                <i class="fa-regular fa-star descricao_icon"></i>
+                <i class="fa-regular fa-star descricao_icon"></i>
+                <h3 class="descricao_title"> Autor do mês</h3>
+                <h2 class="descricao_title_livro"> Rick Riordan </h2>
+                <p class="descricao_text"> Richard Russell Riordan Jr. assina como Rick Riordan, também conhecido pelos
+                    fãs brasileiros simplesmente como Tio Rick, é um escritor norte-americano, mais conhecido por
+                    escrever a série Percy Jackson e Os Olimpianos de 2005 a 2009.</p>
+            </div>
+
+            <div class="card_descricao">
+                <img src="./Assets/Images/rick.jpg" alt="Rick Riordan " class="descricao_img">
+            </div>
+        </div>
+
+        <div class="card_btn">
+            <ul class="btn">
+                <li class="btn_item"><i class="fa-regular fa-heart icon"></i></li>
+                <li class="btn_item"> <i class="fa-solid fa-cart-shopping icon"></i></li>
+            </ul>
+            <a href="" class="btn_ancora">Saiba mais</a>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+    <div class="topicos">
+        <h2 class="topicos_title">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Romance</a>
+            </li>
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Terror</a>
+            </li>
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Ficção</a>
+            </li>
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Educação</a>
+            </li>
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Ação e Aventura</a>
+            </li>
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Suspense</a>
+            </li>
+            <li class="topicos_item">
+                <a href="" class="topicos_link"> Fantasia</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contato">
+        <div class="contato_descricao">
+            <h2 class="contato_title"> Fique por dentro das novidades!</h2>
+            <p class="contato_text"> Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+        <div class="contato_descricao">
+            <input type="email" placeholder="Cadastre seu email" class="contato_email">
+        </div>
+    </div>
+    <hr />
+    <footer class="rodape">
+        <h2 class="rodape_title">ImagineBooks</h2>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });</script>
+</body>
+
+</html>

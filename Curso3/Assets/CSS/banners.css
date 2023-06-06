@@ -1,0 +1,47 @@
+.banner{
+    background: var(--degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em ;
+    letter-spacing: 1px;
+}
+.banner_title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--fonte-destaque);
+}
+.banner_text{
+    font-weight: 500;
+    margin: 1em 0;
+}
+.banner_search{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 80vw;
+}
+.banner_search:hover{
+    background-color: var(--branco);
+    color: var( --cor-fonte-principal);
+}
+.banner_search::placeholder{
+    font-family: var(--fonte-destaque);
+    font-size: 14px;
+    text-align: center;
+    color: var(--branco);
+
+}
+
+@media screen and (min-width:1024px) {
+    .banner_title{
+        font-size: 36px;
+    }
+    .banner_search{
+        width: 50%;
+    }
+    .banner{
+        padding: 5em;
+    }
+}
